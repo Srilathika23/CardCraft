@@ -1,8 +1,8 @@
 'use client';
 
 import React from 'react';
-import UserDashboard from '../page';
+import DashboardContent from '../DashboardContent';
 
 export default function MyCardsRoute() {
-  return <UserDashboard defaultSection="cards" />;
+  return <DashboardContent defaultSection="cards" />;
 }
