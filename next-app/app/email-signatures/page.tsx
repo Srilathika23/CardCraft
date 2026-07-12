@@ -35,7 +35,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { useAuth } from '@/app/context/AuthContext';
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api';
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'https://cardcraft-ryo7.onrender.com/api';
 
 export default function EmailSignaturePage() {
   const { user, isAuthenticated } = useAuth();

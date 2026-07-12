@@ -5,7 +5,7 @@ import { Mail, Phone, Globe, Download, MapPin, Award, Briefcase, Users, Link as 
 import Link from 'next/link';
 import './card-view.css';
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api';
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'https://cardcraft-ryo7.onrender.com/api';
 
 // ── BRAND COLORS MAPS ──
 const SOCIAL_COLORS: Record<string, string> = {

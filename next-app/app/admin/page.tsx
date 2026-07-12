@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation';
 import { useAuth } from '@/app/context/AuthContext';
 import Script from 'next/script';
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api';
+const API_BASE = process.env.NEXT_PUBLIC_API_URL || 'https://cardcraft-ryo7.onrender.com/api';
 
 const T = {
   primary: '#6B1A2A', mid: '#8B2535', warm: '#B85C6E',

@@ -511,7 +511,7 @@ export default function CreateCardPage() {
 
   // Get/Set User ID & Load cache & Load server state
   useEffect(() => {
-    const apiBaseUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000/api";
+    const apiBaseUrl = process.env.NEXT_PUBLIC_API_URL || "https://cardcraft-ryo7.onrender.com/api";
     
     // Check if we are in Edit Mode (via query param `?edit=...`)
     const params = new URLSearchParams(window.location.search);
@@ -702,7 +702,7 @@ export default function CreateCardPage() {
       }
     }
 
-    const apiBaseUrl = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000/api";
+    const apiBaseUrl = process.env.NEXT_PUBLIC_API_URL || "https://cardcraft-ryo7.onrender.com/api";
     try {
       const url = cardId ? `${apiBaseUrl}/cards/${cardId}` : `${apiBaseUrl}/cards`;
       const method = cardId ? 'PUT' : 'POST';
